@@ -8,8 +8,7 @@ export interface SharedLib1Props {}
 export function SharedLib1(props: SharedLib1Props) {
   return (
     <div>
-      <h1>Welcome to shared-lib1!</h1>
-      {/* <h1 className={styles.lib1}>Welcome to shared-lib1!</h1> */}
+      <h1 className={styles.lib1}>Welcome to shared-lib1!</h1>
     </div>
   );
 }
