@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@next-nx-sass/shared/lib1": ["libs/shared/lib1/src/index.ts"],
+      "@next-nx-sass/shared/styles/*": ["libs/shared/styles/src/lib/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
