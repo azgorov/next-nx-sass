@@ -1,2 +1,5 @@
-.page {
+@use '@next-nx-sass/shared/styles/variables.scss' as v;
+
+.p {
+    color: v.$base_color;
 }
